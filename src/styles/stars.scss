@@ -1,8 +1,6 @@
-@import 'variables';
-
 .stars {
   display: flex;
-  border-radius: 0.5px;
+  border-radius: $star-border-radius;
   gap: $star-gap;
 
   &__item {
